@@ -55,6 +55,6 @@ Ej: Un cliente pide una chaqueta X a través de la página web, la orden llega a
 
 b.) La condición para poder efectuar transferencias es explícitamente que el usuario debe estar debidamente autenticado, es decir que tiene que cumplir con el requerimiento no funcional de seguridad, ya que se deben cuidar las acciones pertinentes a cada usuario, es decir hasta qué punto el usuario tiene permisos de interacción dentro del software.
 
-## Punto 5
+## Punto 5 
 
 Falso, ya que en el caso de la integración contínua los desarrolladores realizan sus commits en el repositorio central donde según las pruebas unitarias que se estén verificando, se puedan identificar y solucionar más fácilmente los errores. Al haber pasado las pruebas unitarias, los desarrolladores suben su parte del código, que deberá ser aprobado de manera manual o automática, sin embargo esto ya no sería continuous integration, sino ya implicaría escoger entre continuous delivery o continuous development para que finalmente se llegue al ambiente de producción.
