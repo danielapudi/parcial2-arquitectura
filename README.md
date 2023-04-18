@@ -6,8 +6,8 @@ Para crear una imagen con mysql se ponen los comandos:
 docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=clave -e MYSQL_DATABASE=nombre
 
 9. Para crear la imagen de docker y crear el contenedor respectivamente:
-docker build -t parcial2-arquitectura-master:1.0.0 .
-docker run -d -p 9000:80 parcial2-arquitectura-master:1.0.0
+docker build -t parcial2-arquitectura-master:1.0.0 .      
+     docker run -d -p 9000:80 parcial2-arquitectura-master:1.0.0
 
 PARCIAL
 
